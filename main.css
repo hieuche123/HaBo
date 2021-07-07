@@ -24,6 +24,9 @@ h2{
     position: absolute;
     color: red;
 }
+.control:hover {
+    background-color: rgb(182, 41, 41);
+}
 .control{
     bottom: -264px;
     position: absolute;
