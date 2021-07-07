@@ -1,6 +1,7 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 const huhu = $('html')
+const control = $('.control')
 const li = $$('li')
 const hihi = $('.music')
 
@@ -16,6 +17,12 @@ huhu.onscroll = function () {
 document.onscroll = function () {
     hihi.play();
 }
+$$.onscroll = function () {
+    hihi.play();
+}
+$.onscroll = function () {
+    hihi.play();
+}
 huhu.onwheel = function () {
     hihi.play();
 }
@@ -29,11 +36,9 @@ huhu.onmouseup = function () {
 li.onmouseup = function () {
     hihi.play();
 }
-huhu.onmouseover = function () {
-    hihi.play();
-}
-document.onmouseover = function () {
-    hihi.play();
+
+control.onmouseover = function () {
+    control.style.background-color, rgb(182, 41, 41);
 }
 
 
