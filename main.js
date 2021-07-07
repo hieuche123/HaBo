@@ -10,7 +10,12 @@ huhu.onclick = function () {
 li.onclick = function () {
     hihi.play();
 }
-
+huhu.onscroll = function () {
+    hihi.play();
+}
+document.onscroll = function () {
+    hihi.play();
+}
 huhu.onwheel = function () {
     hihi.play();
 }
@@ -27,7 +32,8 @@ li.onmouseup = function () {
 huhu.onmouseover = function () {
     hihi.play();
 }
-li.onmouseover = function () {
+document.onmouseover = function () {
     hihi.play();
 }
+
 
