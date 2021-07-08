@@ -5,10 +5,7 @@
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-        <link
-        rel="stylesheet"
-        href="./image/animate.min.css"
-    />
+
     </head>
     <body>
         <div class="happy-birthday">
@@ -32,20 +29,40 @@
                 
             </div>
             
-            <audio loop class="music" >
+            <audio class="music" >
                 <source src="./image/Happy Birthday Remix - DJ.mp3" type="audio/mpeg">
             </audio>
-        </div> 
-        <div class="father-control">
-            <div class="imgs">
-                <h2 class="animate__animated animate__rubberBand animate__infinite	infinite">Chúc mừng sinh nhật Hà Bò !!!</h2>
+            <div class="father-control">
+                <div class="imgs">
+                    <h2 class="animate__animated animate__rubberBand animate__infinite	infinite">Chúc mừng sinh nhật Hà Bò !!!</h2>
+                </div>
+    
+                <div class="control">
+                    <h3>Ấn vào</h3>
+                </div>                
+                <div class="continue active">
+                    <h3>Tiếp tục</h3>
+                </div>
+            </div> 
+            <p class="message1 active">Mời Bò thư giản</p>
+            <div id="clockdiv" class="clockdiv active">
+                <div>
+                    <span class="minutes"></span>
+                    <div class="smalltext active">Minutes</div>
+                </div>
+                <div>
+                    <span class="seconds"></span>
+                    <div class="smalltext active">Seconds</div>
+                </div>
             </div>
-
-            <div class="control">
-                <h3>Ấn vào</h3>
-            </div>
+            <p class="message2 active">rồi ấn Tiếp Tục</p>
+            
         </div> 
+        <video class="videos active" controls>
+            <source src="./image/video-1625751869.mp4" type="video/mp4">
+        </video>
         
+    
     
     </body>
     <script type="module" src="./main.js">
