@@ -277,10 +277,19 @@ li {
     }
 }
 /* ==================== */
+.fa-kiss-wink-heart{
+    color: red;
+}
+.color-red{
+    color: red;
+}
 p {
     font-size: 2rem;
     color: rgb(114, 14, 14);
 
+}
+.imgss{
+    width: 100px;
 }
 .videos{
     width: 55.56*10px;
